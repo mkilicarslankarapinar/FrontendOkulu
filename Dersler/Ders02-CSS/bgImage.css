@@ -1,0 +1,30 @@
+.bgImage{
+    background-image: url('https://www.ozenduvarkagidi.com.tr/images/urunler/100_doga-manz-6855_1.jpg');
+    width: 1500px;
+    height: 800px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    color: yellow;
+}
+.title{
+    font-size: 30px;
+}
+.paragraf{
+    font-size: 24px;
+}
+
+/* Media Query - Responsive hale getiriyoruz. */
+@media screen and (max-width: 768px){
+    .title{
+        font-size: 24px;
+    }
+    .paragraf{
+        font-size: 18px;
+    }
+    .bgImage{
+        width: 300px;
+        height: 150px;
+        color: brown;
+    }
+}
